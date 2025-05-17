@@ -1,9 +1,9 @@
 INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES
-('Mr. Chocolate', 10, 'M', 'brown', 'calm', 1),
-('Rowdy', 5, 'M', 'black', 'aggressive', 1),
-('Tabitha', 7, 'F', 'golden', 'friendly', 1),
-('Sergeant Brown', 12, 'M', 'brown', 'stern', 1),
-('Melissa', 6, 'F', 'white', 'playful', 1),
-('Grinch', 8, 'M', 'green', 'grumpy', 0),
-('Wendy', 4, 'F', 'gray', 'cheerful', 1),
-(NULL, 3, 'M', 'brown', 'shy', 0); -- unnamed bear
+('Hakeem', 10, 'M', 'gray', 'wise', 1),
+('Riaq', 6, 'M', 'white', 'gentle', 1),
+('Alfa', 8, 'M', 'black', 'leader', 1),
+('Sakina', 7, 'F', 'cream', 'peaceful', 1),
+('Amina', 5, 'F', 'golden', 'trustworthy', 1),
+('Zahra', 4, 'F', 'brown', 'radiant', 1),
+('Yusuf', 9, 'M', 'silver', 'noble', 1),
+(NULL, 3, 'F', 'tan', 'mysterious', 0); -- unnamed bear
