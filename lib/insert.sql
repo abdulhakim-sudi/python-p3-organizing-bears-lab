@@ -1,9 +1,9 @@
 INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES
-('Hakeem', 10, 'M', 'gray', 'wise', 1),
-('Riaq', 6, 'M', 'white', 'gentle', 1),
-('Alfa', 8, 'M', 'black', 'leader', 1),
-('Sakina', 7, 'F', 'cream', 'peaceful', 1),
-('Amina', 5, 'F', 'golden', 'trustworthy', 1),
-('Zahra', 4, 'F', 'brown', 'radiant', 1),
-('Yusuf', 9, 'M', 'silver', 'noble', 1),
-(NULL, 3, 'F', 'tan', 'mysterious', 0); -- unnamed bear
+('Abdul', 6, 'M', 'brown', 'gentle', 1),
+('Fatima', 4, 'F', 'white', 'kind', 1),
+('Zainab', 3, 'F', 'golden', 'calm', 1),
+('Omar', 7, 'M', 'black', 'serious', 1),
+('Hakim', 5, 'M', 'gray', 'wise', 1),
+('Amina', 2, 'F', 'cream', 'playful', 1),
+('Yusuf', 6, 'M', 'dark brown', 'quiet', 0),
+(NULL, 4, 'F', 'silver', 'curious', 1);

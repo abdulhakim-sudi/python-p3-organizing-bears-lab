@@ -1,9 +1,20 @@
-#!/usr/bin/env python3
+import pytest
+import sqlite3
 
-def pytest_itemcollected(item):
-    par = item.parent.obj
-    node = item.obj
-    pref = par.__doc__.strip() if par.__doc__ else par.__class__.__name__
-    suf = node.__doc__.strip() if node.__doc__ else node.__name__
-    if pref or suf:
-        item._nodeid = ' '.join((pref, suf))
+@pytest.fixture
+def cursor():
+    connection = sqlite3.connect(":memory:")
+    cursor = connection.cursor()
+
+    with open("lib/create.sql") as create_file:
+        cursor.executescript(create_file.read())
+
+    try:
+        with open("lib/insert.sql") as insert_file:
+            cursor.executescript(insert_file.read())
+    except:
+        pass
+
+    yield cursor
+
+    connection.close()
